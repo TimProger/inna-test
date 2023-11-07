@@ -6,21 +6,17 @@
     <title>Document</title>
 </head>
 <body style="background-color: rgb(228, 224, 224);">
-    <div id="root1" data-redirectName="new.html" data-token="798e6142-fa8b-4c33-8311-82c9fe82775a"></div>
-    <!-- <div data-onClickHandler="handler" data-color="green" id="root3"></div> -->
+    <div id="root1" data-locationName="locationName" data-redirectName="new.html" data-token="798e6142-fa8b-4c33-8311-82c9fe82775a"></div>
     <script src="bundle.js"></script>
     <script>
 
-        window.handler = () => {
-            alert('yooo1')
+        window.locationName = {
+            id: 213,
+            cityEn: 'Moscow',
+            cityRu: 'Москва',
+            iso2: 'RU',
         }
 
-        // window.setTimeout(() => {
-        //     window.handler = () => {
-        //         alert('yooo3')
-        //     }
-        //     alert('yooo2')
-        // }, 5000)
     </script>
 </body>
 </html>
